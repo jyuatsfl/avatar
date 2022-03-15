@@ -6,7 +6,7 @@ endif()
 
 project( smplsynth )
 option( WITH_PCL "Enable PCL" OFF )
-option( WITH_K4A "Enable K4A (Azure Kinect); either this or FREENECT2 needed for demo" ON )
+option( WITH_K4A "Enable K4A (Azure Kinect); either this or FREENECT2 needed for demo" OFF )
 option( WITH_FREENECT2 "Enable Freenect2 (Kinect v2); either this or K4A needed for demo" ON )
 option( WITH_OMP "Enable OMP" OFF )
 option( BUILD_RTREE_TOOLS "Build random forest tools" OFF )
